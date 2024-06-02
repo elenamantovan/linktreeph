@@ -1,5 +1,8 @@
 Linktree for Instagram
 
+Project Link
+Live Project
+
 Introduction
 I decided to create my own Linktree page for my professional wedding photographer Instagram account. Social media presence is essential for credibility these days. Without spending too much time on posts, stories, and reels, I want my profile to attract new clients or visitors to my website, elenamantovanweddingph.com.
 
