@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0; /* Remove any default margin */
+}
+
+Header {
+    position: relative; /* Make the header container positioned */
+    width: 360px;
+    height: 248px;
+    z-index: 0;
+    margin-bottom: 40px;
+}
+h1 {
+    margin-bottom: 5px; /* Adjust the margin bottom of h1 */
+}
+
+h2 {
+    margin-top: 5px; /* Adjust the margin top of h2 */
+    margin-bottom: 40px;
+}
+
+button {
+    width: 250px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: #CEE4EA;
+    box-shadow: 0 1px 10px rgba(0, 4, 0, 0.3); /* x0, y1, blur10, very light black shadow */
+    border: none; /* Ensure no border is applied */
+    color: #585858; 
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+    font-weight: normal; /* Regular weight */
+    text-align: center;
+    line-height: 62px; /* Vertically center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure block-level appearance */
+    }
+
+
+.copertina {
+    width: 360px;
+    height: 248px;
+    object-fit: cover; /* Ensure the background image covers the container */
+}
+
+
+.profilo {
+    width: 104px; /* Ensure the image takes up the entire circle */
+    height: 104px; /* Ensure the image takes up the entire circle */
+    border-radius: 50%; /* Ensure the image is circular */
+    object-fit: cover; /* Crop the image to fit */
+}
+
+.foto-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    z-index: 10;
+    
+
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titolo {
+    color: #585858;
+    font-family: 'marcellus', serif;
+    font-size: 36px;
+    font-weight: normal; /* Regular weight */
+}
+
+.sottotitolo {
+    color: #585858;
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    font-weight: 200; /* Extra-light weight */
+    font-style: italic; /* Italic style */
+}
+
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Space between buttons */
+    margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
